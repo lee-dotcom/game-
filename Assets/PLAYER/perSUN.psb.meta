@@ -2528,20 +2528,6 @@ ScriptedImporter:
     spriteID: 8f3978ab4f6e1234b9e452986c020406
     layerID: 10
     mosaicPosition: {x: 4, y: 325}
-  - name: Layer 3
-    spriteName: Layer 3
-    isGroup: 0
-    parentIndex: -1
-    spriteID: f612fddfc96bdaf498df5fd85dbd151c
-    layerID: 21
-    mosaicPosition: {x: 93, y: 382}
-  - name: Layer 1
-    spriteName: Layer 1
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 99778a855f2be6d46b7501cb1650a852
-    layerID: 7
-    mosaicPosition: {x: 4, y: 4}
   - name: 'RIGHT HAND '
     spriteName: 'RIGHT HAND '
     isGroup: 0
@@ -2549,6 +2535,13 @@ ScriptedImporter:
     spriteID: 4509070b13681954aaba25e103d2786a
     layerID: 6
     mosaicPosition: {x: 235, y: 265}
+  - name: Layer 1
+    spriteName: Layer 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 99778a855f2be6d46b7501cb1650a852
+    layerID: 7
+    mosaicPosition: {x: 4, y: 4}
   - name: Layer 2
     spriteName: Layer 2
     isGroup: 0
@@ -2556,6 +2549,13 @@ ScriptedImporter:
     spriteID: 67c6ba41c655e4945b84fc992bc314fb
     layerID: 20
     mosaicPosition: {x: 235, y: 4}
+  - name: Layer 3
+    spriteName: Layer 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f612fddfc96bdaf498df5fd85dbd151c
+    layerID: 21
+    mosaicPosition: {x: 93, y: 382}
   - name: 'LEFT HAND '
     spriteName: 'LEFT HAND '
     isGroup: 0
