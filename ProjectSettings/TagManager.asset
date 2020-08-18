@@ -50,3 +50,6 @@ TagManager:
   - name: player
     uniqueID: 4111813955
     locked: 0
+  - name: 'front '
+    uniqueID: 3957444359
+    locked: 0

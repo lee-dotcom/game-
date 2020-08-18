@@ -10,8 +10,10 @@ public class playercontorroler : MonoBehaviour
     public int jumpforce;
     public Transform groundpoint;
     public LayerMask groundlayer;
-    public bool grounded; 
-    
+    public bool grounded;
+    public GameObject deatheffect;
+    public GameObject gameOver;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,5 +34,9 @@ public class playercontorroler : MonoBehaviour
         anim.SetFloat("yVelocity", rb.velocity.y);
         anim.SetBool("grounded", grounded);
     }
-    public void gameover() { Destroy(gameObject); }
+    public void gameover() { Destroy(gameObject);
+        Instantiate(deatheffect, transform.position, Quaternion.identity);
+        gameOver.SetActive(true);
+        Destroy(gameObject);
+    }
 }
