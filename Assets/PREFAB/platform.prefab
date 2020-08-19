@@ -92,6 +92,7 @@ Transform:
   m_Children:
   - {fileID: 520657778}
   - {fileID: 1248993838}
+  - {fileID: 6582691629470716812}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -190,8 +191,41 @@ MonoBehaviour:
   - {fileID: 0}
   endPosition: {fileID: 0}
   moveVel: 5
-  coinSpawnPositions:
+  objectSpawnPositions:
   - {fileID: 520657778}
   - {fileID: 1248993838}
+  - {fileID: 6582691629470716812}
   coinPrefab: {fileID: 319739672352540679, guid: 7696c1f5a28e4ab4e8423e9a0c782d5b,
     type: 3}
+  hazardPrefab: {fileID: 7404934449453779226, guid: 2e33c3b13f790d24f8e3965b109cc92a,
+    type: 3}
+--- !u!1 &8327354472693754544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6582691629470716812}
+  m_Layer: 8
+  m_Name: GameObject (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6582691629470716812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8327354472693754544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.27, y: 1.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2162803221031551990}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

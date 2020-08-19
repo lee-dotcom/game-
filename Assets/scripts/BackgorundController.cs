@@ -17,9 +17,11 @@ public class BackgorundController : MonoBehaviour
     void Update()
     {
         if (transform.position.x != endPos.position.x)
-        {
+            if (transform.position.x != gamemanager.instance.endPosBG.position.x)
+            {
             transform.position = Vector3.MoveTowards(transform.position, endPos.position, Time.deltaTime);
-        }
+                transform.position = Vector3.MoveTowards(transform.position, gamemanager.instance.endPosBG.position, Time.deltaTime * moveVel);
+            }
         else
         {
             transform.position = startPos.position;
