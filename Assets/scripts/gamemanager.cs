@@ -52,6 +52,10 @@ public class gamemanager : MonoBehaviour
     [HideInInspector]
 
     public cameracontroller cam;
+    [Header("Moving Hazard Variables")]
+    [Tooltip("If you don't see the spaces to add the spawnPositions click the little arrow and type the number then enter")]
+    public Transform[] spawnPosMovHazard;
+    public Transform endPosMovHazard;
 
 
 
